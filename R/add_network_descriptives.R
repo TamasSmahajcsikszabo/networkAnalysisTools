@@ -2,6 +2,7 @@ require("igraph")
 
 #' Add network descriptives to an igraph graph
 #' Returns string of descriptives
+#' @export
 add_network_descriptives <- function(graph,
                                      order = "Order=",
                                      size = "Size=",
