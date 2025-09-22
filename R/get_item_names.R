@@ -1,8 +1,9 @@
 #' Gets row names 
 #' @param covMatrix data frame
-#' labels
-#' @param to_replace optionsal string vector to be replaced
+#' @param labels vector of string names
+#' @param to_replace optional string vector to be replaced
 #' @returns character vector
+#' @export
 get_item_names <- function(covMatrix, labels, to_replace = c("PCA.")) {
     new_labels <- c()
     original_names <- unlist(lapply(rownames(covMatrix), function(x) {
