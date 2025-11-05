@@ -11,7 +11,7 @@ get_item_names(covMatrix, labels, to_replace = c("PCA."))
 
 \item{labels}{vector of string names}
 
-\item{to_replace}{optionsal string vector to be replaced}
+\item{to_replace}{optional string vector to be replaced}
 }
 \value{
 character vector
