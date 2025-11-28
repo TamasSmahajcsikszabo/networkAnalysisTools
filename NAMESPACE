@@ -2,7 +2,9 @@
 
 export(add_articulation_point)
 export(estimate_tau)
+export(expected_inf_plot)
 export(get_item_names)
 export(get_itemnames)
 export(get_network_descriptives)
 export(get_p)
+export(make_community_graph)
